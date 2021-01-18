@@ -18,7 +18,7 @@ public class TestRegistrationValidation {
 		assertEquals(false, rv.checkUserDetails("amin@gmail.com", "amin@556", "amin@556"));
 		assertEquals(false, rv.checkUserDetails("amin@gmail.com", "Amin@am", "Amin@am"));
 		try {
-			rv.checkUserDetails(null, null, null);
+			rv.checkUserDetails(null,null , null);
 		}
 		catch(Exception e) {
 			e.printStackTrace();
